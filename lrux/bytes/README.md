@@ -41,7 +41,7 @@ Default mode of running (sharded / non-sharded)
 go test -bench=. -benchmem -benchtime=5s
 goos: linux
 goarch: amd64
-pkg: github.com/cloudxaas/gocache/lrux/bytes
+pkg: github.com/kolinfluence/kangalru/lrux/bytes
 cpu: AMD Ryzen 5 7640HS w/ Radeon 760M Graphics     
 BenchmarkHashicorpLRUSet-12       	123297104	        46.25 ns/op	       0 B/op	       0 allocs/op
 BenchmarkHashicorpLRUGet-12       	131854731	        45.62 ns/op	       0 B/op	       0 allocs/op
