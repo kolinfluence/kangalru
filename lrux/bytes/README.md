@@ -59,7 +59,7 @@ BenchmarkCXLRUBytesSet-12         	378581541	        15.89 ns/op	       0 B/op	 
 BenchmarkCXLRUBytesGet-12         	396226093	        14.75 ns/op	       0 B/op	       0 allocs/op
 BenchmarkCXLRUBytesDel-12         	1000000000	         4.906 ns/op	       0 B/op	       0 allocs/op
 PASS
-ok  	github.com/cloudxaas/gocache/lrux/bytes	123.575s
+ok  	github.com/kolinfluence/kangalru/lrux/bytes	123.575s
 
 ```
 reference :
