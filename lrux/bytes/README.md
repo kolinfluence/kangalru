@@ -1,13 +1,3 @@
-<p align="center">
-
-  <img src="https://github.com/cloudxaas/gocache/assets/104323920/5948a699-64c8-47b8-a5d6-5afedb6a3976" width="40%" height="auto">
-
-    
- <h2 align="center">" Let's <u>Acce</u>lerate <u>LRU</u> " - AccelruX</h2>
-</p>
-
-# One of The Fastest Zero Allocation LRU Cache in Golang (for key, value pairs in []byte) - AccelruX (cxlruxbytes)
-
 # This X version has higher performance, much lower memory use, at the expense of maybe a bit lower hit ratio
 predefine hashing function for hashing keys up to 4 billion keys (can make this to 2^64 if there are requests for it)
 
@@ -41,7 +31,7 @@ The cache has been rigorously benchmarked on a system with the following specifi
 - **Architecture**: AMD64
 - **CPU**: AMD Ryzen 5 7640HS w/ Radeon 760M Graphics
 
-## NOTE : AccelruX capacity is set in terms of MEMORY SIZE LIMIT and not NUMBER OF ITEMS LIMIT.
+## NOTE : Capacity is set in terms of MEMORY SIZE LIMIT and not NUMBER OF ITEMS LIMIT.
 
 #### Note : Benchmark results (103,400,000 bytes cache with 10 byte key and 1024 byte value, using full cache without eviction [i think], same goes for the rest):
 **These benchmarks are for reference only, do test it to verify claims. This is using full caching (without eviction for all)**
@@ -86,10 +76,10 @@ These benchmarks results vary, please adjust parameters to use for your own use 
 
 *otter has 1 byte alloc / op, in these supposingly zero alloc benchmark cache
 
-## NOTE : AccelruX capacity is set in terms of MEMORY SIZE LIMIT and not NUMBER OF ITEMS LIMIT.
+## NOTE : Capacity is set in terms of MEMORY SIZE LIMIT and not NUMBER OF ITEMS LIMIT.
 ## The benchmarks to test all case scenario is too wide and varied. Please do your own benchmark on it. There are sharded modes, non-sharded modes etc with different settings designed for different use case. Do your own research and do post comments / suggestions on issue tracker. We respect the purpose of different caches designed for use in different scenarios.  
 
-## Accelru and AccelruX are designed for high performance with zero allocation, limited only by memory size instead of item capacity limit. 
+## Designed for high performance with zero allocation, limited only by memory size instead of item capacity limit. 
 
 ## Usage
 
