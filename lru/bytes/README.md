@@ -45,7 +45,7 @@ BenchmarkCXLRUBytesShardedSetParallel-12        60227346                22.03 ns
 BenchmarkCXLRUBytesShardedGetParallel-12        52058894                22.67 ns/op            0 B/op          0 allocs/op
 BenchmarkCXLRUBytesShardedDelParallel-12        208552095                5.342 ns/op           0 B/op          0 allocs/op
 PASS
-ok      github.com/cloudxaas/gocache/lru/bytes  26.591s
+ok      github.com/kolinfluence/kangalru/lru/bytes  26.591s
 ```
 reference : https://github.com/phuslu/lru
 
@@ -121,7 +121,7 @@ Use this option when you have a lot of cpu cores.
 package main
 
 import (
-    cxlrubytes "github.com/cloudxaas/gocache/lru/bytes"
+    cxlrubytes "github.com/kolinfluence/kangalru/lru/bytes"
     "fmt"
 )
 
@@ -149,7 +149,7 @@ package main
 
 import (
     cx "github.com/cloudxaas/gocx"
-    cxlrubytes "github.com/cloudxaas/gocache/lru/bytes"
+    cxlrubytes "github.com/kolinfluence/kangalru/lru/bytes"
     "fmt"
 )
 
