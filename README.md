@@ -5,9 +5,6 @@
    <h1 align="center">Super Fast LRU Cache for Golang</h1>
 </p>
 
-# High Speed Zero Allocation LRU Cache for Golang 
-(for key, value pairs in []byte)
-
 ## Kangalru
 
 Supposingly having the best cache hit ratio (in zero allocation class) with "optimum" memory usage.
